@@ -1,7 +1,5 @@
 ---
 layout: page
-title: About
-permalink: /about/
 ---
 
 The Open Data Challenge is a collaboration between Open Data Delaware and the Technology Forum of Delaware.
