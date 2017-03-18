@@ -1603,6 +1603,8 @@
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			border-left: solid 1px rgba(212, 212, 255, 0.1);
+			color: rgba(156, 168, 188, 1);
 		}
 
 		body.is-article-visible #footer {
@@ -1615,6 +1617,7 @@
 			-ms-filter: blur(0.1rem);
 			filter: blur(0.1rem);
 			opacity: 0;
+
 		}
 
 		body.is-loading #footer {
@@ -1640,4 +1643,6 @@
 					opacity: 0.75;
 					margin-bottom: 0;
 					text-transform: uppercase;
+					border-left: solid 1px rgba(212, 212, 255, 0.1);
+					color: rgba(186, 201, 226, 1);
 				}		
