@@ -1266,6 +1266,33 @@
 				line-height: 2;
 			}
 
+			#header .content .inner .button {
+					display: block;
+					min-width: 7.5rem;
+					height: 2.75rem;
+					line-height: 2.75rem;
+					padding: 0 1.25rem 0 1.45rem;
+					text-transform: uppercase;
+					letter-spacing: 0.2rem;
+					font-size: 0.8rem;
+					border-bottom: 0;
+					background-color: rgba(196, 166, 43, 1);
+					/*background-color: rgba(248, 217, 89, 0.7);*/
+					border-radius: 4px;
+					/*width: 10px;*/
+					margin-left: 30%;
+					margin-right: 30%;
+					/*248, 217, 89, 0.7*/
+
+				}
+					#header .content .inner .button:hover {
+						background-color: rgba(255, 255, 255, 0.075);
+					}
+
+					#header .content .inner .button:active {
+						background-color: rgba(255, 255, 255, 0.175);
+					}
+
 		#header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -1280,7 +1307,8 @@
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-l
+				eft: solid 1px #ffffff;
 			}
 
 				#header nav ul li:first-child {
@@ -1305,7 +1333,7 @@
 					}
 
 					#header .work {
-						background-color: rgba(194, 227, 84, 0.7);
+						background-color: rgba(159, 201, 130, 0.7);
 					}
 
 					#header .events {
@@ -1321,7 +1349,7 @@
 					}
 
 					#header .contact {
-						background-color: rgba(248, 217, 89, 0.7);
+						background-color: rgba(211, 131, 138, 0.7);
 					}
 
 					#header nav ul li a:hover {
